@@ -1,21 +1,21 @@
 { "commands": [
-{ "hdr": "700", "dbg": true, "cmd": {"22": "1059"}, "freq": 0.25,
+{ "hdr": "700", "dbg": false, "cmd": {"22": "1059"}, "freq": 0.25,
   "signals": [
     {"id": "GR_COROLLA_ACCEL_PEDAL", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 1.42, "add": -41, "unit": "percent" }, "name": "Accelerator Pedal"}
   ]},
-{ "hdr": "700", "dbg": true, "cmd": {"22": "1074"}, "freq": 0.25,
+{ "hdr": "700", "dbg": false, "cmd": {"22": "1074"}, "freq": 0.25,
   "signals": [
     {"id": "GR_COROLLA_ENG_OIL_PRESS", "path": "Engine", "fmt": { "len": 16, "max": 1000, "mul": 10, "div": 128, "unit": "kilopascal" }, "name": "Engine Oil Pressure"}
   ]},
-{ "hdr": "700", "dbg": true, "cmd": {"22": "1638"}, "freq": 1,
+{ "hdr": "700", "dbg": false, "cmd": {"22": "1638"}, "freq": 1,
   "signals": [
     {"id": "GR_COROLLA_ATF_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission Fluid Temperature"}
   ]},
-{ "hdr": "700", "dbg": true, "cmd": {"22": "1F2F"}, "freq": 30,
+{ "hdr": "700", "dbg": false, "cmd": {"22": "1F2F"}, "freq": 30,
   "signals": [
     {"id": "GR_COROLLA_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "701", "rax": "709", "dbg": true, "cmd": {"22": "1627"}, "freq": 1,
+{ "hdr": "701", "rax": "709", "dbg": false, "cmd": {"22": "1627"}, "freq": 1,
   "signals": [
     {"id": "GR_COROLLA_TF1_PAN", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission Fluid Pan Temperature"}
   ]},
